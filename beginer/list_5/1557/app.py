@@ -10,6 +10,7 @@ while (n := int(input())) > 0:
             mat[i][j] = mat[i][j - 1] * 2
 
     len_str = len(str(mat[n - 1][n - 1]))
+
     for i in range(n):
         for j in range(n):
             mat[i][j] = str(mat[i][j])
