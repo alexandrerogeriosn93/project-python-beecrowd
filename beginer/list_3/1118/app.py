@@ -1,16 +1,16 @@
-sum_notes, counter = 0, 0
+sum_notes = counter = 0
 continue_loop = True
 
 while continue_loop:
     note = float(input())
 
-    if note >= 0 and note <= 10:
+    if 0 <= note <= 10:
         sum_notes += note
         counter += 1
 
         if counter == 2:
             print(f"media = {(sum_notes/2):.2f}")
-            sum_notes, counter = 0, 0
+            sum_notes = counter = 0
 
             while True:
                 print("novo calculo (1-sim 2-nao)")
