@@ -1,7 +1,8 @@
-evens, odds, positives, negatives = 0, 0, 0, 0
+evens = odds = positives = negatives = 0
 
 for i in range(5):
     number = int(input())
+
     if number % 2 == 0:
         evens += 1
     else:
