@@ -1,12 +1,22 @@
+messages = {
+	1: "Intervalo [0,25]",
+	2: "Intervalo (25,50]",
+	3: "Intervalo (50,75]",
+	4: "Intervalo (75,100]",
+	5: "Fora de intervalo"
+}
+
 n = float(input())
 
-if n >= 0.00 and n <= 25.00:
-	print("Intervalo [0,25]")
-elif n > 25.00 and n <= 50.00:
-	print("Intervalo (25,50]")
-elif n > 50.00 and n <= 75.00:
-	print("Intervalo (50,75]")
-elif n > 75.00 and n <= 100.00:
-	print("Intervalo (75,100]")
+if 0.00 <= n <= 25.00:
+	cod_message = 1
+elif 25.00 < n <= 50.00:
+	cod_message = 2
+elif 50.00 < n <= 75.00:
+	cod_message = 3
+elif 75.00 < n <= 100.00:
+	cod_message = 4
 else:
-	print("Fora de intervalo")
+	cod_message = 5
+
+print(messages[cod_message])
