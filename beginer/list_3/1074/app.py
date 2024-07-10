@@ -15,7 +15,4 @@ for i in range(n):
     if is_null(num):
         print("NULL")
     else:
-        if is_positive(num):
-            print("EVEN POSITIVE") if is_even(num) else print("ODD POSITIVE")
-        else:
-            print("EVEN NEGATIVE") if is_even(num) else print("ODD NEGATIVE")
+        print("EVEN POSITIVE" if is_even(num) else "ODD POSITIVE") if is_positive(num) else print("EVEN NEGATIVE" if is_even(num) else "ODD NEGATIVE")
