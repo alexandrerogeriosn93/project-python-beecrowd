@@ -10,4 +10,4 @@ ddds = {
     71: "Salvador",
 }
 
-print(ddds[code]) if code in ddds else print("DDD nao cadastrado")
+print(ddds[code] if code in ddds else "DDD nao cadastrado")
