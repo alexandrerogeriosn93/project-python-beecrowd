@@ -10,7 +10,7 @@ def is_possible_change(n, m):
 while True:
     n, m = map(int, input().split())
     
-    if n == 0 and m == 0:
+    if n == m == 0:
         break
     
-    print("possible") if is_possible_change(n, m) else print("impossible")
+    print("possible" if is_possible_change(n, m) else "impossible")
