@@ -10,4 +10,4 @@ for i in range(n):
 max_grade = max(grades)
 classmate_max_grade = classmates[grades.index(max_grade)]
 
-print(classmate_max_grade) if max_grade >= 8.0 else print("Minimum note not reached")
+print(classmate_max_grade if max_grade >= 8.0 else "Minimum note not reached")
