@@ -3,4 +3,4 @@ def check_condition(a, b, c):
 
 a, b, c = map(int, input().split())
 
-print("S") if check_condition(a, b, c) else print("N")
+print("S" if check_condition(a, b, c) else "N")

@@ -15,5 +15,5 @@ for i in range(n):
         case "desenhistas":
             d += h
 
-res = (b // 8) + (a // 4) + (m // 6) + (d // 12)
+res = b // 8 + a // 4 + m // 6 + d // 12
 print(res)

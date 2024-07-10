@@ -21,6 +21,7 @@ def query_word(trie, word):
     return (node[0], node[1])
 
 trie = [0, 0, {}]
+
 while True:
     try:
         n = int(input())
@@ -30,6 +31,6 @@ while True:
         q = int(input())
         for _ in range(q):
             count, max_length = query_word(trie, input())
-            print(f'{count} {max_length}' if count != -1 else -1)
+            print(f"{count} {max_length}" if count != -1 else -1)
     except EOFError:
         break

@@ -1,5 +1,5 @@
-vet_even, vet_odd = [], []
-even, odd = 0, 0
+vet_even = vet_odd = []
+even = odd = 0
 
 for i in range(15):
     x = int(input())

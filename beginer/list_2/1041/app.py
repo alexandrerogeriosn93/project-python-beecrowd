@@ -1,7 +1,5 @@
 def return_quadrant(x, y):
-    res = ""
-
-    if x == 0.0 and y == 0.0:
+    if x == y == 0.0:
         res = "Origem"
     elif x == 0.0 and y != 0.0:
         res = "Eixo Y"
@@ -18,6 +16,6 @@ def return_quadrant(x, y):
 
     return res
 
-x ,y = map(float, input().split())
+x, y = map(float, input().split())
 
 print(return_quadrant(x, y))

@@ -13,4 +13,4 @@ n = int(input())
 for i in range(n):
     x = int(input())
 
-    print(f"{x} eh perfeito") if x == calc_divider(x) else print(f"{x} nao eh perfeito")
+    print(f"{x} eh perfeito" if x == calc_divider(x) else f"{x} nao eh perfeito")

@@ -1,16 +1,9 @@
-a, b, c = [int(x) for x in input().split()]
-list_a = []
+list_values = list(map(int, input().split()))
 
-list_a.append(a)
-list_a.append(b)
-list_a.append(c)
-
-ordered_list = sorted(list_a)
-
-for i in ordered_list:
+for i in sorted(list_values):
     print(i)
 
 print()
 
-for i in list_a:
+for i in list_values:
     print(i)

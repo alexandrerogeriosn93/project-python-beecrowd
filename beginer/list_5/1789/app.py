@@ -1,16 +1,14 @@
 while True:
     try:
         n = int(input())
-        values = [int(x) for x in input().split()]
+        values = list(map(int, input().split()))
         max_value = max(values)
-        res = ""
 
         if max_value < 10:
-            res = 1
+            print(1)
         elif max_value < 20:
-            res = 2
+            print(2)
         else:
-            res = 3
-        print(res)
+            print(3)
     except EOFError:
         break

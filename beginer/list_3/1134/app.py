@@ -1,4 +1,4 @@
-alcohol, gasoline, diesel = 0, 0, 0
+alcohol = gasoline = diesel = 0
 
 while (code := int(input())) != 4:
     match code:

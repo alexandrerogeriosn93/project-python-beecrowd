@@ -7,6 +7,6 @@ while True:
         distance += vi * 1.5
         radius = float(r1 + r2)
 
-        print("N") if distance > radius else print("Y")
+        print("N" if distance > radius else "Y")
     except EOFError:
         break

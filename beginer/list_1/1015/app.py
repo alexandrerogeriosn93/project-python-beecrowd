@@ -1,7 +1,7 @@
 from math import pow, sqrt
 
-x1, y1 = [float(x) for x in input().split(" ")]
-x2, y2 = [float(x) for x in input().split(" ")]
+x1, y1 = map(float, input().split())
+x2, y2 = map(float, input().split())
 
 distance = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2))
 

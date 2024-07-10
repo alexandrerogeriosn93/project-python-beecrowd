@@ -1,6 +1,6 @@
 n = int(input())
 list_values = list(map(int, input().split()))
-m2, m3, m4, m5 = 0, 0, 0, 0
+m2 = m3 = m4 = m5 = 0
 
 for i in list_values:
     if i % 2 == 0:

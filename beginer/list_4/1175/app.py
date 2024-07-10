@@ -1,8 +1,7 @@
 vet = [0 for _ in range(20)]
 
 for i in range(20):
-    x = int(input())
-    vet[i] = x
+    vet[i] = int(input())
 
 vet = vet[::-1]
 

@@ -1,12 +1,12 @@
 def calc_percentual(rabbits, mouses, frogs, quantity):
-    p_rabbits = (rabbits / quantity) * 100
-    p_mouses = (mouses / quantity) * 100
-    p_frogs = (frogs / quantity) * 100
+    p_rabbits = rabbits / quantity * 100
+    p_mouses = mouses / quantity * 100
+    p_frogs = frogs / quantity * 100
 
     return p_rabbits, p_mouses, p_frogs
 
 n = int(input())
-rabbits, mouses, frogs = 0, 0, 0
+rabbits = mouses = frogs = 0
 
 for i in range(1, n+1):
     quantity, type_animal = input().split()

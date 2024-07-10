@@ -1,11 +1,8 @@
 h, z, l = map(int, input().split())
 
-ages = [h, z, l]
-ages.sort()
-
-if ages[1] == h:
-    print("huguinho")
-elif ages[1] == z:
+if h < z < l or l < z < h:
     print("zezinho")
+elif z < h < l or l < h < z:
+    print("huguinho")
 else:
     print("luisinho")

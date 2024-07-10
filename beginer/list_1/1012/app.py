@@ -1,10 +1,10 @@
 from math import pow
 
-A, B, C = [float(x) for x in input().split(" ")]
+A, B, C = map(float, input().split())
 
-triangle = (A * C)/2
+triangle = A * C / 2
 circle = 3.14159 * pow(C, 2)
-trapeze = ((A + B) * C)/2
+trapeze = (A + B) * C / 2
 square = pow(B, 2)
 rectangle = A * B
 

@@ -1,5 +1,5 @@
 entry = input().split()
-jeep, peolpe = 0, 0
+jeep = peolpe = 0
 
 while entry[0] != "ABEND":
     match entry[0]:

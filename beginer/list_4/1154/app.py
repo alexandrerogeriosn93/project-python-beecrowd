@@ -1,4 +1,4 @@
-sum_ages, counter = 0, 0
+sum_ages = counter = 0
 
 while (age := int(input())) >= 0:
     sum_ages += age

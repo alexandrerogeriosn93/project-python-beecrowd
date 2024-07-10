@@ -10,5 +10,4 @@ for i in range(12):
 for i in range(12):
     sum_line += mat[line][i]
 
-response = f"{sum_line:.1f}" if option == "S" else f"{(sum_line/12):.1f}"
-print(response)
+print(f"{sum_line:.1f}" if option == "S" else f"{(sum_line / 12):.1f}")

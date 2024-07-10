@@ -2,7 +2,7 @@ n = int(input())
 
 for i in range(0, n):
     x, y = map(int, input().split())
-    response, counter = 0, 0
+    response = counter = 0
 
     while counter < y:
         if x % 2 != 0:

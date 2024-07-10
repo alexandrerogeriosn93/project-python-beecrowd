@@ -1,11 +1,9 @@
 from sys import stdin
 
 n = int(stdin.readline())
-sheeps = [int(x) for x in stdin.readline().split()]
+sheeps = list(map(int, stdin.readline().split()))
 stars = [0 for _ in range(n)]
-total_sheeps = 0
-total_stars = 0
-i = 0
+total_sheeps = total_stars = i = 0
 
 while True:
     if i == 0 and sheeps[i] % 2 == 0:

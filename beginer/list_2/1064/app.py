@@ -1,5 +1,4 @@
-quantity_positives = 0
-sum_positives = 0
+quantity_positives = sum_positives = 0
 
 for i in range(6):
     number = float(input())
