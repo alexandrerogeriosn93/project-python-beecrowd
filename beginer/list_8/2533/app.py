@@ -1,8 +1,7 @@
 while True:
     try:
         m = int(input())
-        numerator = 0
-        denominator = 0
+        numerator = denominator = 0
 
         for _ in range(m):
             n, c = map(int, input().split())
