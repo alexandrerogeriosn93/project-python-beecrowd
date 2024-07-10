@@ -1,5 +1,5 @@
 def calc_attack_value(attack, defense):
-    return ((attack + defense) / 2)
+    return (attack + defense) / 2
 
 def check_level(level):
     return level % 2 == 0
