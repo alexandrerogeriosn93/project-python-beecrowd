@@ -10,5 +10,4 @@ for i in range(12):
 for i in range(12):
     sum_column += mat[i][column]
 
-response = f"{sum_column:.1f}" if option == "S" else f"{(sum_column/12):.1f}"
-print(response)
+print(f"{sum_column:.1f}" if option == "S" else f"{(sum_column / 12):.1f}")
