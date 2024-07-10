@@ -1,7 +1,5 @@
 cases = 1
-counter = 0
-position = 0
-flag = 0
+counter = position = flag = 0
 
 while True:
     try:
@@ -33,6 +31,5 @@ while True:
         
         print("")
         cases += 1
-    
     except EOFError:
         break
