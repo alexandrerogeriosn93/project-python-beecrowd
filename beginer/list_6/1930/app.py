@@ -1,4 +1,4 @@
-t1, t2, t3, t4 = map(int, input().split())
-response = (t1 + t2 + t3 + t4) - 3
+values = sum(list(map(int, input().split())))
+answer = values - 3
 
-print(response)
+print(answer)
