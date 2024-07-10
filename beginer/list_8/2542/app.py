@@ -1,3 +1,4 @@
+# Reference
 # https://github.com/xTecna/solucoes-da-beecrowd/blob/main/problemas/iniciante/2542/README.md
 
 while True:
