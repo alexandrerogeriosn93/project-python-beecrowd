@@ -1,5 +1,4 @@
 salary = float(input())
-percent = 0
 
 if salary <= 400.00:
     percent = 15
@@ -12,7 +11,7 @@ elif salary <= 2000.00:
 else:
     percent = 4
 
-salary_adjustment = salary * (percent/100)
+salary_adjustment = salary * (percent / 100)
 new_salary = salary + salary_adjustment
 
 print(f"Novo salario: {new_salary:.2f}\nReajuste ganho: {salary_adjustment:.2f}\nEm percentual: {percent} %")
