@@ -12,5 +12,4 @@ for i in range(11):
         sum_elements += mat[i][j]
         counter += 1
 
-response = f"{sum_elements:.1f}" if option == "S" else f"{(sum_elements/counter):.1f}"
-print(response)
+print(f"{sum_elements:.1f}" if option == "S" else f"{(sum_elements / counter):.1f}")
