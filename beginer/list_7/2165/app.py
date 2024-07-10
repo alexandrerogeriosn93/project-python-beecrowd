@@ -1,3 +1,3 @@
 t = input()
 
-print("TWEET") if len(t) <= 140 else print("MUTE")
+print("TWEET" if len(t) <= 140 else "MUTE")
