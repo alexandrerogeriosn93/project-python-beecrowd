@@ -1,5 +1,5 @@
 n, p = map(int, input().split())
-jumps = [int(x) for x in input().split()]
+jumps = list(map(int, input().split()))
 response = "YOU WIN"
 
 for i in range(p - 1):
