@@ -7,7 +7,7 @@ reindeer = [
     "Comet",
     "Cupid",
     "Donner",
-    "Blitzen"
+    "Blitzen",
 ]
 
 total_sum = sum(list(map(int, input().split())))

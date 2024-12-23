@@ -14,4 +14,6 @@ else:
 salary_adjustment = salary * (percent / 100)
 new_salary = salary + salary_adjustment
 
-print(f"Novo salario: {new_salary:.2f}\nReajuste ganho: {salary_adjustment:.2f}\nEm percentual: {percent} %")
+print(
+    f"Novo salario: {new_salary:.2f}\nReajuste ganho: {salary_adjustment:.2f}\nEm percentual: {percent} %"
+)

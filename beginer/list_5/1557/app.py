@@ -1,7 +1,7 @@
 while (n := int(input())) > 0:
     mat = [[0 for _ in range(n)] for _ in range(n)]
     mat[0][0] = 1
-    
+
     for i in range(n):
         if i >= 1:
             mat[i][0] = mat[i - 1][0] * 2

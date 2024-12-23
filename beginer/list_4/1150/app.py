@@ -12,6 +12,6 @@ while response <= z:
 
     if response <= z:
         i += 1
-        s += 1 
+        s += 1
 
 print(i)

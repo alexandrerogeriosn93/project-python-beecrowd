@@ -1,11 +1,14 @@
 def return_column(first_letter, second_letter):
     return abs(ord(first_letter) - ord(second_letter))
 
+
 def return_line(first_number, second_number):
     return abs(int(first_number) - int(second_number))
 
+
 def validate(column, line):
     return column == 1 and line == 2 or column == 2 and line == 1
+
 
 initial_position, destiny_position = input().split()
 

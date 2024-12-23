@@ -4,10 +4,10 @@ while (m := int(input())) != 0:
     tests += 1
     total = 0
 
-    operation = input().strip()    
+    operation = input().strip()
     operator = "+"
     operation = operation.replace(" ", "")
-    
+
     i = 0
     n = len(operation)
 

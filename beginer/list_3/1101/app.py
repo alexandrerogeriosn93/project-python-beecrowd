@@ -1,6 +1,7 @@
 def is_positive(x, y):
     return x > 0 and y > 0
 
+
 while True:
     try:
         m, n = map(int, input().split())

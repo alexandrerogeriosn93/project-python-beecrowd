@@ -3,15 +3,15 @@ res = ""
 
 if a > b:
     if c > b:
-        res = ':)'
+        res = ":)"
     else:
-        res = ':)' if b - c < a - b else ':('
+        res = ":)" if b - c < a - b else ":("
 elif a < b:
     if c < b:
-        res = ':('
+        res = ":("
     else:
-        res = ':(' if b - c > a - b else ':)'
+        res = ":(" if b - c > a - b else ":)"
 else:
-    res = ':)' if c > a else ':('
+    res = ":)" if c > a else ":("
 
 print(res)

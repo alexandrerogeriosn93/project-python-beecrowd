@@ -1,13 +1,12 @@
 n = int(input())
 
 for i in range(n):
-    
     if i > 0:
         print()
 
     t = int(input())
     hazardous = []
-    
+
     for _ in range(t):
         hazardous.append(input().strip())
 
@@ -19,7 +18,7 @@ for i in range(n):
 
         for element in hazardous:
             pos = formula.find(element)
-        
+
             while pos != -1:
                 ahead = pos + len(element)
 
@@ -27,10 +26,10 @@ for i in range(n):
                     next_char = formula[ahead - 1]
                     next_next_char = formula[ahead]
 
-                    if(
-                        (next_char.isdigit() and not next_next_char.isdigit()) or 
-                        (next_char.isupper() and next_next_char.isupper()) or 
-                        (next_char.islower() and next_next_char.isupper())
+                    if (
+                        (next_char.isdigit() and not next_next_char.isdigit())
+                        or (next_char.isupper() and next_next_char.isupper())
+                        or (next_char.islower() and next_next_char.isupper())
                     ):
                         dangerous = True
                         break
@@ -40,7 +39,7 @@ for i in range(n):
 
                 pos = formula.find(element, pos + 1)
 
-            if(dangerous):
+            if dangerous:
                 break
 
         print("Abortar" if dangerous else "Prossiga")

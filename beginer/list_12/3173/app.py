@@ -1,6 +1,6 @@
-from datetime import datetime,timedelta
+from datetime import datetime, timedelta
 
-initial_date = datetime.strptime("2020-12-21","%Y-%m-%d")
+initial_date = datetime.strptime("2020-12-21", "%Y-%m-%d")
 n = int(input())
 
 years = 29.6 * n
@@ -19,6 +19,10 @@ if n == 27:
     days_jup -= 1
 
 print(f"Dias terrestres para Jupiter = {days_jup:.0f}")
-print(f"Data terrestre para Jupiter: {date_jupiter.year}-{date_jupiter.month:02d}-{date_jupiter.day:02d}")
+print(
+    f"Data terrestre para Jupiter: {date_jupiter.year}-{date_jupiter.month:02d}-{date_jupiter.day:02d}"
+)
 print(f"Dias terrestres para Saturno = {days_sat:.0f}")
-print(f"Data terrestre para Saturno: {date_saturno.year}-{date_saturno.month:02d}-{date_saturno.day:02d}")
+print(
+    f"Data terrestre para Saturno: {date_saturno.year}-{date_saturno.month:02d}-{date_saturno.day:02d}"
+)

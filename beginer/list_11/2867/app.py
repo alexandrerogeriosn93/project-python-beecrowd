@@ -4,6 +4,6 @@ while True:
 
         for _ in range(c):
             n, m = map(int, input().split())
-            print(len(str(int(n ** m))))
+            print(len(str(int(n**m))))
     except EOFError:
         break

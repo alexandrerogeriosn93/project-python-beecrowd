@@ -8,6 +8,7 @@ def format_answer(a, b, c):
 
     return answer
 
+
 a = int(input())
 b = int(input())
 c = int(input())

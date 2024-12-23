@@ -1,18 +1,18 @@
-from struct import pack, unpack 
+from struct import pack, unpack
 
 d = input()
 
-a = d[:d.find(" ")]
-d = d[d.find(" ") + 1:]
-b = d[:d.find(" ")]
+a = d[: d.find(" ")]
+d = d[d.find(" ") + 1 :]
+b = d[: d.find(" ")]
 
 b = float(b)
 b = unpack("f", pack("f", b))[0]
 b = f"{b:10.6f}".replace(" ", "")
 
-d = d[d.find(" ") + 1:]
-c = d[:d.find(" ")]
-d = d[d.find(" ") + 1:]
+d = d[d.find(" ") + 1 :]
+c = d[: d.find(" ")]
+d = d[d.find(" ") + 1 :]
 
 print(f"{a}{b}{c}{d}")
 print(f"{a}\t{b}\t{c}\t{d}")

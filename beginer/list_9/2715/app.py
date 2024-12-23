@@ -8,6 +8,7 @@ def calc_difference(n, vet_sum):
 
     return answer
 
+
 while True:
     try:
         n = int(input())
@@ -21,7 +22,7 @@ while True:
             vet_sum[i] += vet_sum[i - 1]
 
         answer = calc_difference(n, vet_sum)
-        
+
         print(answer)
     except EOFError:
         break

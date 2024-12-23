@@ -7,6 +7,7 @@ def calc_values(i):
 
     return player
 
+
 n = int(input())
 
 for _ in range(n):

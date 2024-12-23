@@ -6,6 +6,7 @@ def len_sequence_numbers(n):
 
     return total
 
+
 def generate_sequence(n):
     vet_sequence = [0]
 
@@ -13,6 +14,7 @@ def generate_sequence(n):
         vet_sequence.extend([i] * i)
 
     return vet_sequence
+
 
 cases = 1
 

@@ -1,7 +1,9 @@
 import sys
 
+
 def validate(x, xi, y, yi):
     return xi <= x and yi <= y or xi <= y and yi <= x
+
 
 input = sys.stdin.read().strip().split()
 
@@ -14,14 +16,14 @@ while index < len(input):
         y = int(input[index + 1])
         m = int(input[index + 2])
         index += 3
-        
+
         for _ in range(m):
             xi = int(input[index])
             yi = int(input[index + 1])
             index += 2
-        
+
             results.append("Sim") if validate(x, xi, y, yi) else results.append("Nao")
-    
+
     except ValueError:
         break
 

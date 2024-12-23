@@ -8,7 +8,7 @@ while (n := int(input())) > 0:
             mat_aux.append(abs(counter))
             counter = counter - 3 if counter == 1 else counter - 1
         mat.append(mat_aux)
-            
+
     for i in range(n):
         text = ""
         for j in range(n):

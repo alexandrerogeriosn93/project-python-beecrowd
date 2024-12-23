@@ -1,5 +1,5 @@
 reais, cents = map(int, input().split("."))
-cents += (reais * 100)
+cents += reais * 100
 
 notes = [100, 50, 20, 10, 5, 2]
 coins = [100, 50, 25, 10, 5, 1]
