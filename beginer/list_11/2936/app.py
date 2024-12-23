@@ -5,5 +5,12 @@ mapinguari = int(input())
 iara = int(input())
 dona_chica = 225
 
-total = curupira * 300 + boitata * 1500 + boto * 600 + mapinguari * 1000 + iara * 150 + dona_chica
+total = (
+    curupira * 300
+    + boitata * 1500
+    + boto * 600
+    + mapinguari * 1000
+    + iara * 150
+    + dona_chica
+)
 print(total)

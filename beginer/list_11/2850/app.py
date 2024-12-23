@@ -2,7 +2,7 @@ bird = {
     "esquerda": "ingles",
     "direita": "frances",
     "nenhuma": "portugues",
-    "as duas": "caiu"
+    "as duas": "caiu",
 }
 
 while True:

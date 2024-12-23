@@ -14,4 +14,6 @@ for i in range(5):
     if number < 0:
         negatives += 1
 
-print(f"{evens} valor(es) par(es)\n{odds} valor(es) impar(es)\n{positives} valor(es) positivo(s)\n{negatives} valor(es) negativo(s)")
+print(
+    f"{evens} valor(es) par(es)\n{odds} valor(es) impar(es)\n{positives} valor(es) positivo(s)\n{negatives} valor(es) negativo(s)"
+)

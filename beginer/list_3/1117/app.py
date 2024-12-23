@@ -1,6 +1,7 @@
 def validate(n):
     return n < 0 or n > 10
 
+
 x = float(input())
 
 while validate(x):

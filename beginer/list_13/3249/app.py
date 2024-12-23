@@ -5,6 +5,7 @@ def count_wins(battles):
             wins += 1
     return wins
 
+
 n = int(input())
 battles = []
 

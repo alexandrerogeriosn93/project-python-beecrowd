@@ -1,11 +1,18 @@
 def isTheSword(mat, i, j):
-    if (mat[i-1][j-1] == 7) and (mat[i-1][j] == 7) and \
-       (mat[i-1][j+1] == 7) and (mat[i][j-1] == 7) and \
-       (mat[i+1][j-1] == 7) and (mat[i+1][j] == 7) and \
-       (mat[i+1][j+1] == 7) and (mat[i][j+1] == 7):
+    if (
+        (mat[i - 1][j - 1] == 7)
+        and (mat[i - 1][j] == 7)
+        and (mat[i - 1][j + 1] == 7)
+        and (mat[i][j - 1] == 7)
+        and (mat[i + 1][j - 1] == 7)
+        and (mat[i + 1][j] == 7)
+        and (mat[i + 1][j + 1] == 7)
+        and (mat[i][j + 1] == 7)
+    ):
         return True
     else:
         return False
+
 
 n, m = map(int, input().split())
 mat = []

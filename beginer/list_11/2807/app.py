@@ -11,6 +11,7 @@ def calc_fibonacci(n):
             a, b = b, c
         return b
 
+
 n = int(input())
 fib = []
 

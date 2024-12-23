@@ -11,7 +11,7 @@ while True:
                 if i == n - j - 1:
                     mat[i][j] = 2
 
-                if i != j and i != n - j -1:
+                if i != j and i != n - j - 1:
                     mat[i][j] = 3
 
         for i in range(n):

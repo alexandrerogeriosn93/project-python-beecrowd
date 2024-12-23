@@ -8,6 +8,7 @@ def calc_divider(n):
 
     return response
 
+
 n = int(input())
 
 for i in range(n):

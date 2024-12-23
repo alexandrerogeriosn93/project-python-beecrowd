@@ -1,6 +1,7 @@
 def convert_to_seconds(d, h, m, s):
     return s + m * 60 + h * 3600 + d * 86400
 
+
 i_day = int(input().split()[1])
 i_hour, i_minute, i_second = map(int, input().split(":"))
 

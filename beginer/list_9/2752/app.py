@@ -12,5 +12,6 @@ def format_answer(text):
 
     return answer
 
+
 text = "AMO FAZER EXERCICIO NO URI"
 print(format_answer(text))

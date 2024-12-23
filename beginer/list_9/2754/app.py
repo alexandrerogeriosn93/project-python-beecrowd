@@ -13,6 +13,7 @@ def format_answer(first_value, second_value):
 
     return answer
 
+
 first_value, second_value = 234.345, 45.698
 
 print(format_answer(first_value, second_value))

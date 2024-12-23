@@ -16,6 +16,7 @@ def return_quadrant(x, y):
 
     return res
 
+
 x, y = map(float, input().split())
 
 print(return_quadrant(x, y))

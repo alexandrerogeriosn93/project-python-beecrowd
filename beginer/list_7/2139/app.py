@@ -1,11 +1,13 @@
 from datetime import datetime
 
+
 def day_until_christmas(month, day):
     date = datetime(2016, month, day)
     christmas = datetime(2016, 12, 25)
     diference = christmas - date
 
     return diference.days
+
 
 while True:
     try:

@@ -1,15 +1,17 @@
 def convert_angle(angle):
     return int(angle * 240)
 
+
 def calc_time(angle):
     total_angle = (convert_angle(angle) + convert_angle(90)) % convert_angle(360)
-    
+
     hours = total_angle // 3600
     total_angle %= 3600
     minutes = total_angle // 60
     seconds = total_angle % 60
-    
+
     return hours, minutes, seconds
+
 
 while True:
     try:

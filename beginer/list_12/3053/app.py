@@ -1,6 +1,7 @@
 def change_values(values, i, j):
     values[i], values[j] = values[j], values[i]
 
+
 n = int(input())
 
 initial_position = ord(input()) - 65

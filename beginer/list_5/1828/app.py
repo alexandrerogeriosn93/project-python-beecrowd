@@ -1,6 +1,7 @@
 def show_message(i, message):
     print(f"Caso #{i}: {message}")
 
+
 n = int(input())
 
 for i in range(1, n + 1):

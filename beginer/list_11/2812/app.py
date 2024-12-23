@@ -1,6 +1,7 @@
 def is_odd(value):
     return value % 2 == 1
 
+
 n = int(input())
 
 for _ in range(n):
@@ -19,7 +20,7 @@ for _ in range(n):
                 flag = True
                 break
 
-        if flag == False:
+        if not flag:
             break
 
     print(*list_odd)

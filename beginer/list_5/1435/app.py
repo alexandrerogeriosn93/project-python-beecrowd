@@ -2,7 +2,7 @@ while (n := int(input())) > 0:
     mat = [[0 for _ in range(n)] for _ in range(n)]
     min_value = 0
     max_value = n
-    counter = 0 
+    counter = 0
 
     limit = n // 2 if n % 2 == 0 else 1 + n // 2
 

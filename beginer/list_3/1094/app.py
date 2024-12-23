@@ -5,10 +5,11 @@ def calc_percentual(rabbits, mouses, frogs, quantity):
 
     return p_rabbits, p_mouses, p_frogs
 
+
 n = int(input())
 rabbits = mouses = frogs = 0
 
-for i in range(1, n+1):
+for i in range(1, n + 1):
     quantity, type_animal = input().split()
     quantity = int(quantity)
     type_animal = str(type_animal).upper()

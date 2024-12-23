@@ -1,5 +1,5 @@
 t = int(input())
-vet = [] 
+vet = []
 
 for i in range(1000):
     j = 0

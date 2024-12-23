@@ -11,13 +11,13 @@ if a >= b + c:
 else:
     if d == e:
         print("TRIANGULO RETANGULO")
-    
+
     if d > e:
         print("TRIANGULO OBTUSANGULO")
-    
+
     if d < e:
         print("TRIANGULO ACUTANGULO")
-    
+
     if a == b == c:
         print("TRIANGULO EQUILATERO")
     elif a == b or a == c or b == c:

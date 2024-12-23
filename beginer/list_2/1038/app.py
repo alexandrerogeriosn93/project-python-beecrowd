@@ -1,7 +1,9 @@
 # To submit this code and receive Accepted, you must change your python version to 3.10 or higher
 
+
 def calc_total(quantity, value):
     return quantity * value
+
 
 code, quantity = map(int, input().split())
 

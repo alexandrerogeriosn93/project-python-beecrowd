@@ -10,9 +10,11 @@ for c in range(1, n):
     for d in range(n - c):
         first_element = weights[c - 1][d]
         second_element = weights[c - 1][d + 1]
-        res_element = first_element if first_element < second_element else second_element
+        res_element = (
+            first_element if first_element < second_element else second_element
+        )
         e = sum(mat[c][i:j]) + res_element
-        
+
         weights[c].append(e)
         i += 1
         j += 1

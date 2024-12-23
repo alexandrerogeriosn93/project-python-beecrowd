@@ -1,5 +1,6 @@
 def decrypt(text):
-    print(chr(ord('a') + 3 * (len(text) - 1) + len(text[0]) - 1))
+    print(chr(ord("a") + 3 * (len(text) - 1) + len(text[0]) - 1))
+
 
 while True:
     try:

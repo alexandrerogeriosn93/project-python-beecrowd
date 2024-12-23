@@ -1,5 +1,5 @@
-n, l = map(int, input().split())
+N, L = map(int, input().split())
 
-p = n * l
+p = N * L
 
 print(p)
