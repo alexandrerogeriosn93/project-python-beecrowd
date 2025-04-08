@@ -1,10 +1,6 @@
 from string import ascii_uppercase
 
-alphabet = dict()
+letter = input().upper()
+position = ascii_uppercase.index(letter) + 1
 
-for index, value in enumerate(ascii_uppercase, start=1):
-    alphabet[value] = index
-
-l = input().upper()
-
-print(alphabet[l])
+print(position)
