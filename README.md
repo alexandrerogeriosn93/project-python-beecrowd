@@ -1,39 +1,67 @@
-# Boas-vindas
+# Welcome
 
-## Sobre o repositório
+## About the Repository
 
-Este repositório tem como objetivo o desenvolvimento de soluções de questões da plataforma [Beecrowd](https://judge.beecrowd.com/pt/login) utilizando conceitos de lógica de programação, com foco na linguagem Python, que atualmente é o meu foco de estudo. Além disso, poder ajudar iniciantes no aprendizado em programação.
+This repository aims to develop solutions for questions from the [Beecrowd](https://judge.beecrowd.com/en/login) platform using programming logic concepts, focusing on Python, which is currently my study focus. Additionally, it aims to help beginners in their programming learning journey.
 
-## Avisos importantes
+## Important Information
 
-Serão disponibilizadas apenas as questões da categoria Iniciante da plataforma, as questões das demais categorias poderão ser resolvidas futuramente, mediante a minha disponibilidade.
+Only questions from the **Beginner** category of the platform will be provided. Questions from other categories may be solved in the future, depending on my availability.
 
-Todas as submissões na plataforma foram realizadas entre as datas **14/05/2024** e **23/06/2024**.
+All submissions on the platform were made between **05/14/2024** and **06/23/2024**.
 
-Nós códigos em que consulta ou utilização de trechos de códigos, deixarei nos respectivos códigos os comentários fazendo as devidas referências.
+In codes where there was consultation or use of code snippets, I will leave comments with the respective references.
 
-## Ambiente de desenvolvimento
+## Development Environment
 
-- Sistema operacional: [Ubuntu 24.04 lts](https://ubuntu.com/download/desktop)
-- Linguagem de programação: [Python 3.12.3](https://www.python.org/downloads/release/python-3123/)
-- Editor de texto: [Visual Studio Code](https://code.visualstudio.com/download)
-- Terminal: [Fish](https://fishshell.com/)
-- Prompt de linha de comando: [Starship](https://starship.rs/)
-- Extensão para a formatação do código Python: [Ruff](https://astral.sh/ruff)
+- **Operating System**: [Ubuntu 24.04 LTS](https://ubuntu.com/download/desktop)
+- **Programming Language**: [Python 3.12.3](https://www.python.org/downloads/release/python-3123/)
+- **Text Editor**: [Visual Studio Code](https://code.visualstudio.com/download)
+- **Terminal**: [Fish](https://fishshell.com/)
+- **Command Line Prompt**: [Starship](https://starship.rs/)
+- **Python Formatting Extension**: [Ruff](https://astral.sh/ruff)
 
-## Conceitos utilizados
+## Concepts Used
 
-- Lógica de programação
-- Tipos de variáveis
-- Estruturas condicionais
-- Estruturas de repetição
-- Expressões lambda
-- Estruturas de dados ( vetores, matrizes, dicionários, tuplas )
-- Funções
+- Programming Logic
+- Variable Types
+- Conditional Structures
+- Repetition Structures
+- Lambda Expressions
+- Data Structures (lists, matrices, dictionaries, tuples)
+- Functions
 
-## Questões não solucionadas
+## Folder Structure
 
-| Questões                             | Status |
+```text
+.
+├── beginer
+│   ├── list_1
+│   │   ├── 1000
+│   │   │   └── app.py
+│   │   ├── 1001
+│   │   │   └── app.py
+│   │   └── ...
+│   ├── list_2
+│   ├── list_3
+│   ├── list_4
+│   ├── list_5
+│   ├── list_6
+│   ├── list_7
+│   ├── list_8
+│   ├── list_9
+│   ├── list_10
+│   ├── list_11
+│   ├── list_12
+│   ├── list_13
+│   └── list_14
+├── README.md
+└── requirements.txt
+```
+
+## Unsolved Issues
+
+| Issues                               | Status |
 | ------------------------------------ | ------ |
 | 3181 - Jantar                        | :x:    |
 | 3229 - Resenhas de comida            | :x:    |
@@ -53,56 +81,54 @@ Nós códigos em que consulta ou utilização de trechos de códigos, deixarei n
 | 3306 - Consulta e Alteração          | :x:    |
 | 3343 - Attack on Gasparini           | :x:    |
 
-## Estatísticas de submissões
+## Project Execution
 
-![Estatísticas de submissões](.github/preview.png)
+To run the codes, follow these steps:
 
-## Execução do projeto
-
-Para executar os códigos deve-se executar os passos a seguir:
-
-1. Crie um ambiente virtual, caso tenha o interesse em instalar dependências externas.
+1. Create a virtual environment if you wish to install external dependencies.
 
    `python3 -m venv .venv`
 
-   ou
+   or
 
    `python -m venv .venv`
 
-2. Ative o ambiente virtual.
+2. Activate the virtual environment.
 
-   Caso esteja utilizando o fish terminal utilize este comando.
+   If using the fish terminal:
 
    `. .venv/bin/activate.fish`
 
-   ou
+   or
 
    `. .venv/bin/activate`
 
-3. Instale a dependência desejada.
+3. Install the desired dependency.
 
-   `pip install nome_da_dependência`
+   `pip install dependency_name`
 
-4. Para gerar o arquivo com as dependências instaladas.
+4. To generate the requirements file:
 
    `pip freeze > requirements.txt`
 
-5. Acesse o diretório do script que deseja executar.
+5. Access the directory of the script you want to run.
 
    `cd beginer/list_1/1000`
 
-   `cd beginer/list_1/1001`
-
-   `cd beginer/list_1/1002`
-
-6. Execute o script.
+6. Execute the script.
 
    `python3 app.py`
 
-   ou
+   or
 
    `python app.py`
 
-## Exemplo de execução
+## Images
 
-![Exemplo de execução do projeto](.github/preview-example-ex-1000.png)
+### Submission Statistics
+
+![Submission Statistics](.github/preview.png)
+
+### Execution Example
+
+![Project Execution Example](.github/preview-example-ex-1000.png)
